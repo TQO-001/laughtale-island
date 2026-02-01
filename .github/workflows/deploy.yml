@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 2222
-          script: /var/www/laughtale-island/deploy.sh
+          script: ~/deploy.sh frontend
